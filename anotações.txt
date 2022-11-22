@@ -1,0 +1,12 @@
+Instalar NuGet Package Manager
+Intalar extensões para C#
+
+Pomelo.EntityframeworkCore.Mysql (Last .Ver)
+Microsoft.EntityFrameworkCore (Last .Ver)
+Microsoft.EntityFrameworkCore.Design (Last .Ver)
+Newtonsoft.Json (Last .Ver)
+
+(Instalar dotnet-entityframework)
+dotnet tool install --global dotnet-ef
+
+dotnet ef dbcontext scaffold "server={ip};user id={usuario};password={senha};database={nome do banco de dados}" Pomelo.EntityFrameworkCore.MySql -o {Nome do arquivo} --data-annotations --force
